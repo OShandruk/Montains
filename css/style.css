@@ -1,0 +1,339 @@
+@font-face {
+    font-family: "Bringin"; /* Гарнитура шрифта */
+    src: url(../fonts/Bringin.otf);
+    font-style: normal; 
+    font-weight: normal;/* Путь к файлу со шрифтом */
+
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
+
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Bold.ttf); /* Путь к файлу со шрифтом */
+
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: table;
+}
+
+.clearfix:after { clear: both;}
+
+
+  .container {
+  	width:1140px;
+  	margin: 0 auto;
+  }
+
+
+  	/*** HEADER****/
+
+header {
+	margin-top: 30px;
+	background: url(../img/header_bg.png) no-repeat center /cover ;
+	height:700px;
+}
+.logo {
+	float: left;
+	margin-top: 30px;
+	margin-right: 165px;
+}
+.nav-menu {
+	float: left;
+	margin-top:38px;
+
+}
+.nav-menu li {
+	float: right;
+	margin-left: 25px;
+}
+.nav-menu a {
+	display: block;
+	font: bold 12px 'OpenSans', Arial, sans-serif;
+	color:#a5b4bb;
+	text-transform: uppercase;
+
+}
+.nav-menu a:hover {
+	border-bottom: 3px solid #36aeea;
+}
+.header-button {
+	margin-top: 18px;
+	float: right;
+	text-transform: uppercase;
+	font: bold 12px 'OpenSans', Arial, sans-serif;
+	color: #36aeea;
+	border:3px solid #36aeea;
+	padding: 15px 45px 15px 45px;
+	border-radius: 3px;
+}
+a.header-button:hover {
+	background-color: #36aeea;
+	color:#fff;
+}
+
+.center-header {
+	padding-top: 40px;
+	padding-left: 30px;
+	margin-top: 170px;
+	height: 320px;
+	border:3px solid #fff;
+}
+.header-title {
+	font: bold 50px 'OpenSans', Arial, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+h2.header-subtitle {
+	margin-top: -25px;
+	font-size: 66px;
+	font-family: 'Roboto', sans-serif;
+	color: #36aeea;
+}
+
+.center-header p {
+	font: 18px 'OpenSans', Arial, sans-serif;
+	color: #d5d9dc;
+	line-height: 1.7em;
+}
+.button-center {
+	margin-top: 30px;
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 12px 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	padding: 15px 45px 15px 45px;
+	border-radius: 3px;
+	background-color: #36aeea;
+
+
+}
+a.button-center:hover {
+	background-color: #0c9de6;
+}
+
+/******* END HEADER*******/
+
+/*******ABOUT US**********/
+
+.about-bg {
+	background: #f6f4f4  url(../img/about-bg.png) no-repeat center ;
+	height:740px;
+}
+
+.about-left {
+	float:left;
+	padding-top: 250px;
+	width:330px;
+}
+
+.about-title {
+	font: bold 20px 'OpenSans', Arial, sans-serif;
+	color: #2c2e37;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.simple-text {
+	font: 14px 'OpenSans', Arial, sans-serif;
+	color:#949494;
+	line-height:26px;
+}
+.button-about {
+	margin-top: 30px;
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 12px 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	background-color: #36aeea;
+}
+.img-bottom {
+	margin-top: -50px;
+}
+
+.about-right {
+	float: right;
+	margin-top:-30px;
+	margin-right: -100px;
+	width:800px;
+}
+
+.img-top, .img-bottom {
+	position: relative;
+}
+
+.img-bottom {
+	bottom: 200px;
+	right:50px;
+}
+
+
+/******* END ABOUT US*****/
+
+/******JOURNAL*******/
+.jurnal-item-wrap {
+	margin-bottom: 50px;
+}
+
+.section-title {
+	font: bold 30px 'OpenSans', Aria, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 110px;
+	padding-bottom: 70px;
+}
+
+.jurnal-item {
+	position: relative;
+	float: left;
+	width:33.3%;
+	height: 380px;
+	text-align: center;
+
+
+}
+
+.upper-layer {
+	position:absolute;
+	top: 100px;
+	left:150px;
+
+}
+
+.journal-item-title {
+	font: bold 11px 'OpenSans', Aria, sans-serif;
+	color: #0083b3;
+	text-transform: uppercase;
+	margin: 50px 0px 45px 0px;
+
+}
+.journal-item-subtitle {
+	font: bold 17px 'OpenSans', Aria, sans-serif;
+	text-transform: uppercase;
+	line-height: 1.7em;
+	margin
+
+}
+.box-shadow {
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.08);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.08);
+}
+.pimpa-right {
+	position: absolute;
+top: 30px;
+right:0px;
+
+}
+.pimpa-bottom {
+position: absolute;
+left: 30px;
+bottom:-8px;
+transform: rotate(90deg)
+}
+.pimpa-left {
+position: absolute;
+left: 0px;
+top:30px;
+transform: rotate(180deg)
+}
+
+
+.number {
+	display: inline-block;
+	font: 14px 'OpenSans', Aria, sans-serif;
+	margin-top: 20px;
+
+}
+
+/*****END JOURNAL******/
+/*ORDER*/
+.order-bg {
+	background: #f6f4f4 url(../img/order-bg.png) no-repeat center /cover;
+	height: 650px;
+	
+}
+.order-title {
+	padding-top: 100px;
+	font: bold 17px 'OpenSans', Aria, sans-serif;
+	text-transform: uppercase;
+	line-height: 1.7em;
+}
+.order-form  {
+	background-color: #fff;
+	display: block;
+	border-radius: 5px;
+	height: 60px;
+	width: 935px;
+	margin-top: 35px;
+
+}
+.order-form  label {
+	margin-left: 20px;
+	font: 16px 'OpenSans', Aria, sans-serif;
+	color: #848484;
+}
+.order-form  input {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right:50px;
+	border:none;
+	outline: none;
+}
+.order-form input:first-child {
+	border-right: 2px solid #adadad;
+
+}
+.order-form  input[type="text"] {
+	font: 16px 'OpenSans', Aria, sans-serif;
+	color: #848484;
+}
+.button-order {
+	display: inline-block;
+	text-transform: uppercase;
+	font: bold 16px 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	padding: 20px 55px 20px 55px;
+	border-radius: 3px;
+	background-color: #36aeea;
+	-webkit-transition-duration: 0.3s;
+  	transition-duration: 0.3s;
+}
+.button-order:hover {
+	background-color: #256fe9;
+}
+.lock {
+	margin-top:10px;
+	background: url(../img/Lock.png) left no-repeat;
+	font: 14px 'OpenSans', Aria, sans-serif;
+	color: #36aeea;
+	padding-left: 20px;
+} 
+
+/*END ORDER*/
+
+/*HOW WE WORK*/
+	.number-work {
+		position: relative;
+		display: inline-block;
+		font:bold  16px 'OpenSans', Aria, sans-serif;
+		color:#36aeea;
+		width: 45px;
+		height: 45px;
+		border:5px solid #36aeea;
+		border-radius:50%; 
+
+	}
+
+	.number-work span {
+		position: absolute;
+		top:12px;
+		left: 17px;
+	}
+/*END HOW WE WORK*/
